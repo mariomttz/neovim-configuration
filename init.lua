@@ -10,8 +10,8 @@ Created on: January 09, 2023.
 Author: Mario Martinez.
 Contact: mariomttz@protonmail.com
 
-Current version: 1.0.0
-Last update: January 09, 2023.
+Current version: "1.0.1"
+Last update: January 10, 2023.
 
 --]]
 
@@ -35,10 +35,13 @@ end
 
 local files = {
 
-    settings = "lua/user/settings",		    -- Settings configuration file.
-    keymaps  = "lua/user/keymaps",          -- Keymaps configuration file.
-    packer   = "lua/plugins/packer",		-- Package manager configuration file.
+    settings    = "lua/user/settings",		        -- Settings configuration file.
+    keymaps     = "lua/user/keymaps",               -- Keymaps configuration file.
+    packer      = "lua/plugins/packer",		        -- Package manager configuration file.
+    autosave    = "lua/plugins/auto-save",          -- Autosave configuration file.
+    autopairs   = "lua/plugins/nvim-autopairs",     -- Autopairs configuration file.
 
 }
 
 file_loading_errors(files)
+
