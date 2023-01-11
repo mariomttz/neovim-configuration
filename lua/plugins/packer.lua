@@ -33,7 +33,13 @@ return require('packer').startup(function(use)
 
     -- Plugins list.
     -- Package Manager.
-    use 'wbthomason/packer.nvim'
+    use "wbthomason/packer.nvim"
+
+    -- Autosave.
+    use "Pocco81/auto-save.nvim"
+
+    -- Autopairs.
+    use "windwp/nvim-autopairs"
 
     -- 
 
