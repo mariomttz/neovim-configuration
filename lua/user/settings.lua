@@ -57,6 +57,7 @@ opt.softtabstop    = 4              -- Number of spaces that <Tab> uses while ed
 -- T
 opt.tabstop        = 4              -- Number of spaces that <Tab> in file uses.
 opt.title          = true           -- Let Vim set the title of the window.
+opt.termguicolors  = true           -- Enables to have 256 colors and hexadecimals.
 
 -- U
 -- V
