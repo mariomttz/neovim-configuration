@@ -35,11 +35,11 @@ end
 
 local files = {
 
-    settings    = "lua/user/settings",		        -- Settings configuration file.
-    keymaps     = "lua/user/keymaps",               -- Keymaps configuration file.
-    packer      = "lua/plugins/packer",		        -- Package manager configuration file.
-    autosave    = "lua/plugins/auto-save",          -- Autosave configuration file.
-    autopairs   = "lua/plugins/nvim-autopairs",     -- Autopairs configuration file.
+    settings    = "user/settings",		        -- Settings configuration file.
+    keymaps     = "user/keymaps",               -- Keymaps configuration file.
+    packer      = "plugins/packer",		        -- Package manager configuration file.
+    autosave    = "plugins/auto-save",          -- Autosave configuration file.
+    autopairs   = "plugins/nvim-autopairs",     -- Autopairs configuration file.
 
 }
 
