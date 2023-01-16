@@ -28,6 +28,12 @@ mv neovim-configuration nvim
 
 If you have any problems with the installation or configuration, you can write to us in the [issues](https://github.com/mariomttz/neovim-configuration/issues) section of GitHub.
 
+## 📧 Contact
+You can contact me by visiting my profile on [GitHub](https://github.com/mariomttz), there you will find my email, in case you have more personal questions. Thanks for your time. ❤
+
+## 📃 License
+This repository is distributed under the [MIT license](https://github.com/mariomttz/neovim-configuration/blob/master/LICENSE).
+
 # 🇲🇽 Información en español
 
 ## 💡 Acerca de
@@ -55,3 +61,9 @@ mv neovim-configuration nvim
 **Nota:** ya debes contar con Neovim instalado. En el caso de que todavía no cuentes con él, puedes consultar como instalarlo dando clic [aquí](https://github.com/neovim/neovim/wiki/Installing-Neovim).
 
 Si tienes algun problema con la instalacion o la configuracion, puedes escribirnos en el apartado de [problemas](https://github.com/mariomttz/neovim-configuration/issues) de GitHub.
+
+## 📧 Contacto
+Puedes contactar conmigo visitando mi perfil en [GitHub](https://github.com/mariomttz), allí encontrarás mi correo electrónico, por si tienes alguna duda más personal. Gracias por tu tiempo. ❤
+
+## 📃 Licencia
+Este repositorio se encuentra distribuido bajo la [licencia MIT](https://github.com/mariomttz/neovim-configuration/blob/master/LICENSE).
