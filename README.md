@@ -32,7 +32,7 @@ If you have any problems with the installation or configuration, you can write t
 You can contact me by visiting my profile on [GitHub](https://github.com/mariomttz), there you will find my email, in case you have more personal questions. Thanks for your time. ❤
 
 ## 📃 License
-This repository is distributed under the [MIT license](https://github.com/mariomttz/neovim-configuration/blob/master/LICENSE).
+This repository is distributed under the [MIT license](https://github.com/mariomttz/neovim-configuration/blob/master/LICENSE.md).
 
 # 🇲🇽 Información en español
 
@@ -66,4 +66,4 @@ Si tienes algun problema con la instalacion o la configuracion, puedes escribirn
 Puedes contactar conmigo visitando mi perfil en [GitHub](https://github.com/mariomttz), allí encontrarás mi correo electrónico, por si tienes alguna duda más personal. Gracias por tu tiempo. ❤
 
 ## 📃 Licencia
-Este repositorio se encuentra distribuido bajo la [licencia MIT](https://github.com/mariomttz/neovim-configuration/blob/master/LICENSE).
+Este repositorio se encuentra distribuido bajo la [licencia MIT](https://github.com/mariomttz/neovim-configuration/blob/master/LICENSE.md).
