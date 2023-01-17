@@ -1,47 +1,32 @@
 --[[
- _         _  _       _               
-(_) _ __  (_)| |_    | | _   _   __ _ 
-| || '_ \ | || __|   | || | | | / _` |
-| || | | || || |_  _ | || |_| || (_| |
-|_||_| |_||_| \__|(_)|_| \__,_| \__,_|
+
+██╗███╗   ██╗██╗████████╗██╗     ██╗   ██╗ █████╗ 
+██║████╗  ██║██║╚══██╔══╝██║     ██║   ██║██╔══██╗
+██║██╔██╗ ██║██║   ██║   ██║     ██║   ██║███████║
+██║██║╚██╗██║██║   ██║   ██║     ██║   ██║██╔══██║
+██║██║ ╚████║██║   ██║██╗███████╗╚██████╔╝██║  ██║
+╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝
+
+For more information about the title, please visit: http://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Type%20Something%20
 
 Created on: January 09, 2023.
+Under MIT license.
 
 Author: Mario Martinez.
 Contact: mariomttz@protonmail.com
 
-Current version: "1.0.1"
-Last update: January 10, 2023.
+Current version: "1.2.0"
+Last update: January 16, 2023.
 
 --]]
 
--- Configuration functions.
+-- Configuration files.
 
-local function file_loading_errors(files)
-
-    for file_name, path in pairs(files) do
-
-        status, _ = pcall(require, path)
-
-        if status == false then
-            print("Error loading file:" .. file_name, "(".. path .. ")")
-        end 
-
-    end
-end
-
-
--- List of the configuration files.
-
-local files = {
-
-    settings    = "user/settings",		        -- Settings configuration file.
-    keymaps     = "user/keymaps",               -- Keymaps configuration file.
-    packer      = "plugins/packer",		        -- Package manager configuration file.
-    autosave    = "plugins/auto-save",          -- Autosave configuration file.
-    autopairs   = "plugins/nvim-autopairs",     -- Autopairs configuration file.
-
-}
-
-file_loading_errors(files)
-
+require("user/settings")		     -- Settings configuration file.
+require("user/keymaps")              -- Keymaps configuration file.
+require("plugins/packer")		     -- Package manager configuration file.
+require("plugins/auto-save")         -- Autosave configuration file.
+require("plugins/nvim-autopairs")    -- Autopairs configuration file.
+require("plugins/indent_blankline")  -- Indent blankline configuration file.
+require("plugins/tokyonight")        -- Colorscheme configuration file.
+require("plugins/dashboard")         -- Dashboard configuration file.
