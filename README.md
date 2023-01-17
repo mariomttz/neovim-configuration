@@ -6,12 +6,18 @@
 This is my own [Neovim](https://neovim.io/) configuration that I use for various things ranging from taking notes of any kind to programming. This configuration can be taken as a base and modified according to each person's needs, the idea is to be able to adapt it to any work environment and above all easy to understand for new users who are starting to use this IDE. All the files created for this configuration will be written with [Lua](https://www.lua.org/).
 
 ## 📰 New features
-- Current version: `1.0.1`
 
-- Added auto-save files with ["auto-save.nvim"](https://github.com/Pocco81/auto-save.nvim) plugin.
-- Added plugin ["nvim-autopairs"](https://github.com/windwp/nvim-autopairs), for auto-completion of special symbols.
-- All configuration files for new plugins were added.
-- The option to support 256 colors and hexadecimals was enabled.
+| Current version | Release date |
+| :---: | :---: |
+| `1.2.0` | `January 16, 2023` |
+
+- Changed the titles of all files.
+- Removed the function found in the init file.
+- Added ["Indent blankline"](https://github.com/lukas-reineke/indent-blankline.nvim) plugin to display indentation lines.
+- Added the ["Tokyo night"](https://github.com/folke/tokyonight.nvim) theme which we will use as a color scheme for future updates.
+- We placed a dashboard, using the ["Dashboard"](https://github.com/glepnir/dashboard-nvim) plugin.
+- Added some basic keyboard shortcuts.
+- All the configuration files for the new plugins were added.
 
 ## 🛠 Installation
 You can install this configuration in the way you find more comfortable, in case you already have more experience in this. Otherwise, you should go to `~/.config/` and execute the following commands in your terminal:
@@ -40,12 +46,18 @@ This repository is distributed under the [MIT license](https://github.com/mariom
 Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para diversas cosas que va desde tomar apuntes de cualquier tipo hasta programar. Esta configuración puede ser tomada como base y modificada a gusto de cada persona según sus necesidades, la idea es poder adaptarla a cualquier entorno de trabajo y sobre todo fácil de entender para los usuarios nuevos que están comenzando a usar este IDE. Todos los archivos que se creen para esta configuración serán escritos con [Lua](https://www.lua.org/).
 
 ## 📰 Nuevas características
-- Versión en curso: `1.0.1`
 
-- Se añadio autoguardado de archivos con el plugin ["auto-save.nvim"](https://github.com/Pocco81/auto-save.nvim).
-- Se añadio el plugin ["nvim-autopairs"](https://github.com/windwp/nvim-autopairs), para el autocompletado de simbolos especiales.
-- Todos los archivos de configuracion de los nuevos plugins fueron añadidos.
-- Se activo la opcion para soportar 256 colores y hexadecimales.
+| Versión actual | Fecha de publicación |
+| :---: | :---: |
+| `1.2.0` | `Enero 16, 2023` |
+
+- Se cambiaron los títulos de todos los archivos.
+- Se eliminó la función que se encontraba en el archivo init.
+- Añadimos el plugin ["Indent blankline"](https://github.com/lukas-reineke/indent-blankline.nvim) para mostrar las líneas de indentación.
+- Agregamos el tema ["Tokyo night"](https://github.com/folke/tokyonight.nvim) que usaremos como esquema de color para futuras actualizaciones.
+- Colocamos un cuadro de mandos, usando el plugin ["Dashboard"](https://github.com/glepnir/dashboard-nvim).
+- Añadimos algunos atajos de teclado básicos.
+- Todos los archivos de configuración de los nuevos plugins fueron añadidos.
 
 ## 🛠 Instalación
 Puedes instalar esta configuración de la manera que te parezca más cómoda, en el caso de que ya tengas más experiencia en esto. En caso contrario, debes ubicarte en `~/.config/` y ejecutar en tu terminal los siguientes comandos:
