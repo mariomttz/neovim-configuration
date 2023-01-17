@@ -1,10 +1,11 @@
 --[[
-                     _                _               
- _ __    __ _   ___ | | __ ___  _ __ | | _   _   __ _ 
-| '_ \  / _` | / __|| |/ // _ \| '__|| || | | | / _` |
-| |_) || (_| || (__ |   <|  __/| | _ | || |_| || (_| |
-| .__/  \__,_| \___||_|\_\\___||_|(_)|_| \__,_| \__,_|
-|_|                                                   
+
+██████╗  █████╗  ██████╗██╗  ██╗███████╗██████╗    ██╗     ██╗   ██╗ █████╗ 
+██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗   ██║     ██║   ██║██╔══██╗
+██████╔╝███████║██║     █████╔╝ █████╗  ██████╔╝   ██║     ██║   ██║███████║
+██╔═══╝ ██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗   ██║     ██║   ██║██╔══██║
+██║     ██║  ██║╚██████╗██║  ██╗███████╗██║  ██║██╗███████╗╚██████╔╝██║  ██║
+╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝
 
 For more information, please visit: https://github.com/wbthomason/packer.nvim
 
@@ -41,7 +42,16 @@ return require('packer').startup(function(use)
     -- Autopairs.
     use "windwp/nvim-autopairs"
 
-    -- 
+    -- Indent blankline.
+    use "lukas-reineke/indent-blankline.nvim"
+
+    -- Colorscheme.
+    use "folke/tokyonight.nvim"
+
+    -- Dashboard.
+    use "glepnir/dashboard-nvim"
+
+    --
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
