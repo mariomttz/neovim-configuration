@@ -51,6 +51,12 @@ return require('packer').startup(function(use)
     -- Dashboard.
     use "glepnir/dashboard-nvim"
 
+    -- Colorizer.
+    use "norcalli/nvim-colorizer.lua"
+
+    -- Cursorline.
+    use "yamatsum/nvim-cursorline"
+
     --
 
     -- Automatically set up your configuration after cloning packer.nvim
