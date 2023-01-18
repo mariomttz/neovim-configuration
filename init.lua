@@ -16,7 +16,7 @@ Author: Mario Martinez.
 Contact: mariomttz@protonmail.com
 
 Current version: "1.2.0"
-Last update: January 16, 2023.
+Last update: January 17, 2023.
 
 --]]
 
@@ -30,3 +30,5 @@ require("plugins/nvim-autopairs")    -- Autopairs configuration file.
 require("plugins/indent_blankline")  -- Indent blankline configuration file.
 require("plugins/tokyonight")        -- Colorscheme configuration file.
 require("plugins/dashboard")         -- Dashboard configuration file.
+require("plugins/colorizer")         -- Colorizer configuration file.
+require("plugins/nvim-cursorline")   -- Cursorline configuration file.
