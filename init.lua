@@ -16,7 +16,7 @@ Author: Mario Martinez.
 Contact: mariomttz@protonmail.com
 
 Current version: "1.2.0"
-Last update: January 17, 2023.
+Last update: January 19, 2023.
 
 --]]
 

@@ -9,7 +9,7 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 
 | Current version | Release date |
 | :---: | :---: |
-| `1.2.0` | `January 17, 2023` |
+| `1.2.0` | `January 19, 2023` |
 
 - Changed the titles of all files.
 - Removed the function found in the init file.
@@ -18,7 +18,6 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 - We placed a dashboard, using the ["Dashboard"](https://github.com/glepnir/dashboard-nvim) plugin.
 - We gave neovim some color with the help of the ["colorizer"](https://github.com/norcalli/nvim-colorizer.lua) plugin.
 - Now you can know which line you are on with the ["cursorline"](https://github.com/yamatsum/nvim-cursorline) plugin.
-- Added some basic keyboard shortcuts.
 - All the configuration files for the new plugins were added.
 
 ## 🛠 Installation
@@ -51,7 +50,7 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 
 | Versión actual | Fecha de publicación |
 | :---: | :---: |
-| `1.2.0` | `Enero 17, 2023` |
+| `1.2.0` | `Enero 19, 2023` |
 
 - Se cambiaron los títulos de todos los archivos.
 - Se eliminó la función que se encontraba en el archivo init.
@@ -60,7 +59,6 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 - Colocamos un cuadro de mandos, usando el plugin ["Dashboard"](https://github.com/glepnir/dashboard-nvim).
 - Le dimos un poco de color a neovim con la ayuda del plugin ["colorizer"](https://github.com/norcalli/nvim-colorizer.lua).
 - Ahora ya puedes saber en qué línea te encuentras con el plugin ["cursorline"](https://github.com/yamatsum/nvim-cursorline).
-- Añadimos algunos atajos de teclado básicos.
 - Todos los archivos de configuración de los nuevos plugins fueron añadidos.
 
 ## 🛠 Instalación
