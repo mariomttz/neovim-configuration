@@ -18,6 +18,9 @@ Contact: mariomttz@protonmail.com
 Current version: "1.2.0"
 Last update: January 19, 2023.
 
+Version in development: "1.3.0"
+Last update: January 20, 2023.
+
 --]]
 
 -- Configuration files.

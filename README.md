@@ -9,16 +9,14 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 
 | Current version | Release date |
 | :---: | :---: |
-| `1.2.0` | `January 19, 2023` |
+| `1.3.0` | `January 20, 2023` |
 
-- Changed the titles of all files.
-- Removed the function found in the init file.
-- Added ["Indent blankline"](https://github.com/lukas-reineke/indent-blankline.nvim) plugin to display indentation lines.
-- Added the ["Tokyo night"](https://github.com/folke/tokyonight.nvim) theme which we will use as a color scheme for future updates.
-- We placed a dashboard, using the ["Dashboard"](https://github.com/glepnir/dashboard-nvim) plugin.
-- We gave neovim some color with the help of the ["colorizer"](https://github.com/norcalli/nvim-colorizer.lua) plugin.
-- Now you can know which line you are on with the ["cursorline"](https://github.com/yamatsum/nvim-cursorline) plugin.
-- All the configuration files for the new plugins were added.
+- We added plugins that are used by more plugins: ["plenary.nvim"](https://github.com/nvim-lua/plenary.nvim), ["Nvim-web-devicons"](https://github.com/nvim-tree/nvim-web-devicons).
+- Save the status bar, it looks improved with the help of ["lualine.nvim"](https://github.com/nvim-lualine/lualine.nvim).
+- You can now move between buffers, thanks to ["nvim-cokeline"](https://github.com/noib3/nvim-cokeline).
+- With the file explorer ["nvim-tree.lua"](https://github.com/nvim-tree/nvim-tree.lua) it will be much easier to find what you were looking for.
+- We add color to files with ["nvim-treesitter"](https://github.com/nvim-treesitter/nvim-treesitter).
+- Move like a ninja with ["SJ - Search and Jump"](https://github.com/woosaaahh/sj.nvim).
 
 ## 🛠 Installation
 You can install this configuration in the way you find more comfortable, in case you already have more experience in this. Otherwise, you should go to `~/.config/` and execute the following commands in your terminal:
@@ -50,16 +48,14 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 
 | Versión actual | Fecha de publicación |
 | :---: | :---: |
-| `1.2.0` | `Enero 19, 2023` |
+| `1.3.0` | `20 de Enero del 2023` |
 
-- Se cambiaron los títulos de todos los archivos.
-- Se eliminó la función que se encontraba en el archivo init.
-- Añadimos el plugin ["Indent blankline"](https://github.com/lukas-reineke/indent-blankline.nvim) para mostrar las líneas de indentación.
-- Agregamos el tema ["Tokyo night"](https://github.com/folke/tokyonight.nvim) que usaremos como esquema de color para futuras actualizaciones.
-- Colocamos un cuadro de mandos, usando el plugin ["Dashboard"](https://github.com/glepnir/dashboard-nvim).
-- Le dimos un poco de color a neovim con la ayuda del plugin ["colorizer"](https://github.com/norcalli/nvim-colorizer.lua).
-- Ahora ya puedes saber en qué línea te encuentras con el plugin ["cursorline"](https://github.com/yamatsum/nvim-cursorline).
-- Todos los archivos de configuración de los nuevos plugins fueron añadidos.
+- Agregamos plugins que son usados por más plugins: ["plenary.nvim"](https://github.com/nvim-lua/plenary.nvim), ["Nvim-web-devicons"](https://github.com/nvim-tree/nvim-web-devicons).
+- Ahorra la barra de estatus, tiene un aspecto mejorado con la ayuda de ["lualine.nvim"](https://github.com/nvim-lualine/lualine.nvim).
+- Ya puedes moverte entre buffers, gracias a ["nvim-cokeline"](https://github.com/noib3/nvim-cokeline).
+- Con el explorador de archivos ["nvim-tree.lua"](https://github.com/nvim-tree/nvim-tree.lua) será mucho más fácil encontrar lo que buscabas.
+- Le agregamos color a los archivos con ["nvim-treesitter"](https://github.com/nvim-treesitter/nvim-treesitter).
+- Muévete como un ninja con["SJ - Search and Jump"](https://github.com/woosaaahh/sj.nvim).
 
 ## 🛠 Instalación
 Puedes instalar esta configuración de la manera que te parezca más cómoda, en el caso de que ya tengas más experiencia en esto. En caso contrario, debes ubicarte en `~/.config/` y ejecutar en tu terminal los siguientes comandos:
