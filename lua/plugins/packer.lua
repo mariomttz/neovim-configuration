@@ -36,6 +36,14 @@ return require('packer').startup(function(use)
     -- Package Manager.
     use "wbthomason/packer.nvim"
 
+    -- Global plugins.
+    -- Plenary.
+    use "nvim-lua/plenary.nvim"
+
+    -- Nvim-web-devicons.
+    use "nvim-tree/nvim-web-devicons"
+
+    -- Specific plugins.
     -- Autosave.
     use "Pocco81/auto-save.nvim"
 
