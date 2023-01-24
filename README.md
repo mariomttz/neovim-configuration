@@ -9,7 +9,7 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 
 | Current version | Release date |
 | :---: | :---: |
-| `1.2.2` | `January 19, 2023` |
+| `1.2.2` | `January 24, 2023` |
 
 - Changed the titles of all files.
 - Removed the function found in the init file.
@@ -51,7 +51,7 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 
 | Versión actual | Fecha de publicación |
 | :---: | :---: |
-| `1.2.2` | `Enero 19, 2023` |
+| `1.2.2` | `Enero 24, 2023` |
 
 - Se cambiaron los títulos de todos los archivos.
 - Se eliminó la función que se encontraba en el archivo init.
