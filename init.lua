@@ -15,8 +15,8 @@ Under MIT license.
 Author: Mario Martinez.
 Contact: mariomttz@protonmail.com
 
-Current version: "1.2.1"
-Last update: January 21, 2023.
+Current version: "1.2.2"
+Last update: January 24, 2023.
 
 --]]
 
