@@ -11,7 +11,7 @@ For more information, please visit: https://github.com/Pocco81/auto-save.nvim
 
 --]]
 
--- Options configurations (Neovim API aliases).
+-- Configuration options (Neovim API aliases).
 
 local fn = vim.fn
 

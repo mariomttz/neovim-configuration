@@ -11,7 +11,7 @@ For more information, please visit: https://github.com/norcalli/nvim-colorizer.l
 
 --]]
 
--- Options configurations (Neovim API aliases).
+-- Configuration options (Neovim API aliases).
 
 -- Colorizer configuration.
 

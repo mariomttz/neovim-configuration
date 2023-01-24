@@ -11,7 +11,7 @@ For more information, please visit: https://github.com/windwp/nvim-autopairs
 
 --]]
 
--- Options configurations (Neovim API aliases).
+-- Configuration options (Neovim API aliases).
 
 -- Neovim autopairs configuration.
 

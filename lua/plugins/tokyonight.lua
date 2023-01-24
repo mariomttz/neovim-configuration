@@ -11,7 +11,7 @@ For more information, please visit: https://github.com/folke/tokyonight.nvim
 
 --]]
 
--- Options configurations (Neovim API aliases).
+-- Configuration options (Neovim API aliases).
 
 local cmd = vim.cmd
 

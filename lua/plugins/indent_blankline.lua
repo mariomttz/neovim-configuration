@@ -11,7 +11,7 @@ For more information, please visit: https://github.com/lukas-reineke/indent-blan
 
 --]]
 
--- Options configurations (Neovim API aliases).
+-- Configuration options (Neovim API aliases).
 
 -- Indent blankline configuration.
 

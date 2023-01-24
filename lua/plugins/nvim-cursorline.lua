@@ -11,7 +11,7 @@ For more information, please visit: https://github.com/yamatsum/nvim-cursorline
 
 --]]
 
--- Options configurations (Neovim API aliases).
+-- Configuration options (Neovim API aliases).
 
 -- Cursorline configuration.
 

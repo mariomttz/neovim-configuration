@@ -9,7 +9,7 @@
 
 --]]
 
--- Options configurations (Neovim API aliases).
+-- Configuration options (Neovim API aliases).
 
 local opt = vim.opt
 

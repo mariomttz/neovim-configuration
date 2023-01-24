@@ -11,7 +11,7 @@ For more information, please visit: https://github.com/glepnir/dashboard-nvim
 
 --]]
 
--- Options configurations (Neovim API aliases).
+-- Configuration options (Neovim API aliases).
 
 -- Dashboard options configurations.
 
