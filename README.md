@@ -17,6 +17,7 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 - With the file explorer ["nvim-tree.lua"](https://github.com/nvim-tree/nvim-tree.lua) it will be much easier to find what you were looking for.
 - We add color to files with ["nvim-treesitter"](https://github.com/nvim-treesitter/nvim-treesitter).
 - Move like a ninja with ["SJ - Search and Jump"](https://github.com/woosaaahh/sj.nvim).
+- Now the dashboard is more beautiful than before.
 
 ## 🛠 Installation
 You can install this configuration in the way you find more comfortable, in case you already have more experience in this. Otherwise, you should go to `~/.config/` and execute the following commands in your terminal:
@@ -56,6 +57,7 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 - Con el explorador de archivos ["nvim-tree.lua"](https://github.com/nvim-tree/nvim-tree.lua) será mucho más fácil encontrar lo que buscabas.
 - Le agregamos color a los archivos con ["nvim-treesitter"](https://github.com/nvim-treesitter/nvim-treesitter).
 - Muévete como un ninja con["SJ - Search and Jump"](https://github.com/woosaaahh/sj.nvim).
+- Ahora el dashboard es más bonito que antes.
 
 ## 🛠 Instalación
 Puedes instalar esta configuración de la manera que te parezca más cómoda, en el caso de que ya tengas más experiencia en esto. En caso contrario, debes ubicarte en `~/.config/` y ejecutar en tu terminal los siguientes comandos:
