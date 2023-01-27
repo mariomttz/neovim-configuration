@@ -19,7 +19,7 @@ Current version: "1.2.0"
 Last update: January 19, 2023.
 
 Version in development: "1.3.0"
-Last update: January 20, 2023.
+Last update: January 26, 2023.
 
 --]]
 
@@ -35,3 +35,8 @@ require("plugins/tokyonight")        -- Colorscheme configuration file.
 require("plugins/dashboard")         -- Dashboard configuration file.
 require("plugins/colorizer")         -- Colorizer configuration file.
 require("plugins/nvim-cursorline")   -- Cursorline configuration file.
+require("plugins/nvim-tree")         -- File browser configuration file.
+require("plugins/lualine")           -- Statusline configuration file.
+require("plugins/cokeline")          -- Bufferline configuration file.
+
+require("plugins/sj")                -- Buffer navigator configuration file.
