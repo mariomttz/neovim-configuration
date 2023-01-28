@@ -36,6 +36,14 @@ return require('packer').startup(function(use)
     -- Package Manager.
     use "wbthomason/packer.nvim"
 
+    -- Global plugins.
+    -- Plenary.
+    use "nvim-lua/plenary.nvim"
+
+    -- Nvim-web-devicons.
+    use "nvim-tree/nvim-web-devicons"
+
+    -- Specific plugins.
     -- Autosave.
     use "Pocco81/auto-save.nvim"
 
@@ -49,13 +57,46 @@ return require('packer').startup(function(use)
     use "folke/tokyonight.nvim"
 
     -- Dashboard.
-    use "glepnir/dashboard-nvim"
+    use {"glepnir/dashboard-nvim",
+        -- event = "VimEnter",
+        requires = {"nvim-tree/nvim-web-devicons"}
+    }
 
     -- Colorizer.
     use "norcalli/nvim-colorizer.lua"
 
     -- Cursorline.
     use "yamatsum/nvim-cursorline"
+
+    -- Nvim tree.
+    use {"nvim-tree/nvim-tree.lua",
+        requires = {"nvim-tree/nvim-web-devicons"},              -- Optional, for file icons
+        tag = "nightly"                                          -- Optional, updated every week.
+    }
+
+    -- Lualine.
+    use {"nvim-lualine/lualine.nvim",
+        requires = {"kyazdani42/nvim-web-devicons",
+        opt = true }
+    }
+
+    -- Cokeline.
+    use {"noib3/nvim-cokeline",
+        requires = "kyazdani42/nvim-web-devicons"               -- If you want devicons.
+    }
+
+    -- Tresitter.
+    use {"nvim-treesitter/nvim-treesitter",
+        run = function()
+            local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+            ts_update()
+        end,
+    }
+
+    --
+
+    -- Search and Jump.
+    use "woosaaahh/sj.nvim"
 
     --
 
