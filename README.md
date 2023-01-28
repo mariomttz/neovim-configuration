@@ -9,7 +9,7 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 
 | Current version | Release date |
 | :---: | :---: |
-| `1.3.0` | `January 20, 2023` |
+| `1.3.0` | `January 27, 2023` |
 
 - We added plugins that are used by more plugins: ["plenary.nvim"](https://github.com/nvim-lua/plenary.nvim), ["Nvim-web-devicons"](https://github.com/nvim-tree/nvim-web-devicons).
 - Save the status bar, it looks improved with the help of ["lualine.nvim"](https://github.com/nvim-lualine/lualine.nvim).
@@ -49,7 +49,7 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 
 | Versión actual | Fecha de publicación |
 | :---: | :---: |
-| `1.3.0` | `20 de Enero del 2023` |
+| `1.3.0` | `27 de Enero del 2023` |
 
 - Agregamos plugins que son usados por más plugins: ["plenary.nvim"](https://github.com/nvim-lua/plenary.nvim), ["Nvim-web-devicons"](https://github.com/nvim-tree/nvim-web-devicons).
 - Ahorra la barra de estatus, tiene un aspecto mejorado con la ayuda de ["lualine.nvim"](https://github.com/nvim-lualine/lualine.nvim).

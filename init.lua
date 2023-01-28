@@ -15,11 +15,11 @@ Under MIT license.
 Author: Mario Martinez.
 Contact: mariomttz@protonmail.com
 
-Current version: "1.2.0"
-Last update: January 19, 2023.
+Current version: "1.2.2"
+Last update: January 24, 2023.
 
 Version in development: "1.3.0"
-Last update: January 26, 2023.
+Last update: January 27, 2023.
 
 --]]
 
@@ -38,5 +38,5 @@ require("plugins/nvim-cursorline")   -- Cursorline configuration file.
 require("plugins/nvim-tree")         -- File browser configuration file.
 require("plugins/lualine")           -- Statusline configuration file.
 require("plugins/cokeline")          -- Bufferline configuration file.
-
+require("plugins/treesitter")        -- Syntax highlighting configuration file.
 require("plugins/sj")                -- Buffer navigator configuration file.
