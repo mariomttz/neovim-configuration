@@ -75,8 +75,13 @@ require("dashboard").setup({
         footer = {                                                      -- Footer configuration.
             "",
             "",
+            "Have a nice time mariomttz while using neovim!!!",
             "",
-            "Have a nice time mariomttz while using neovim!!!"
+            "Date: " .. os.date("%m-%d-%Y") .. ".",
         }   
+    },
+
+    hide = {
+        statusline = true,                                              -- Hide the statusline.
     }
 })

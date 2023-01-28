@@ -85,7 +85,15 @@ return require('packer').startup(function(use)
         requires = "kyazdani42/nvim-web-devicons"               -- If you want devicons.
     }
 
-    -- 
+    -- Tresitter.
+    use {"nvim-treesitter/nvim-treesitter",
+        run = function()
+            local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+            ts_update()
+        end,
+    }
+
+    --
 
     -- Search and Jump.
     use "woosaaahh/sj.nvim"
