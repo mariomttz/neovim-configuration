@@ -8,8 +8,8 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 ## 📰 New features
 
 | Current version | Release date |
-| :---: | :---: |
-| `1.3.0` | `January 27, 2023` |
+| :-------------: | :----------: |
+| `1.3.1` | `January 29, 2023` |
 
 - We added plugins that are used by more plugins: ["plenary.nvim"](https://github.com/nvim-lua/plenary.nvim), ["Nvim-web-devicons"](https://github.com/nvim-tree/nvim-web-devicons).
 - Save the status bar, it looks improved with the help of ["lualine.nvim"](https://github.com/nvim-lualine/lualine.nvim).
@@ -18,16 +18,13 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 - We add color to files with ["nvim-treesitter"](https://github.com/nvim-treesitter/nvim-treesitter).
 - Move like a ninja with ["SJ - Search and Jump"](https://github.com/woosaaahh/sj.nvim).
 - Now the dashboard is more beautiful than before.
+- We added some useful keymaps and some color to the brackets.
 
 ## 🛠 Installation
-You can install this configuration in the way you find more comfortable, in case you already have more experience in this. Otherwise, you should go to `~/.config/` and execute the following commands in your terminal:
-v
-```git
-# 1.
-git clone https://github.com/mariomttz/neovim-configuration
+You can install this configuration in the way you find most comfortable, in case you already have more experience in this. Otherwise, run this command in your terminal:
 
-# 2.
-mv neovim-configuration nvim
+```git
+git clone https://github.com/mariomttz/neovim-configuration ~/.config/nvim
 ```
 
 **Note:** you must already have Neovim installed. In case you don't have it yet, you can check how to install it by clicking [here](https://github.com/neovim/neovim/wiki/Installing-Neovim).
@@ -48,8 +45,8 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 ## 📰 Nuevas características
 
 | Versión actual | Fecha de publicación |
-| :---: | :---: |
-| `1.3.0` | `27 de Enero del 2023` |
+| :------------: | :------------------: |
+| `1.3.1` | `29 de Enero del 2023` |
 
 - Agregamos plugins que son usados por más plugins: ["plenary.nvim"](https://github.com/nvim-lua/plenary.nvim), ["Nvim-web-devicons"](https://github.com/nvim-tree/nvim-web-devicons).
 - Ahorra la barra de estatus, tiene un aspecto mejorado con la ayuda de ["lualine.nvim"](https://github.com/nvim-lualine/lualine.nvim).
@@ -58,16 +55,13 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 - Le agregamos color a los archivos con ["nvim-treesitter"](https://github.com/nvim-treesitter/nvim-treesitter).
 - Muévete como un ninja con["SJ - Search and Jump"](https://github.com/woosaaahh/sj.nvim).
 - Ahora el dashboard es más bonito que antes.
+- Añadimos algunos keymaps útiles y algo de color a los brackets.
 
 ## 🛠 Instalación
-Puedes instalar esta configuración de la manera que te parezca más cómoda, en el caso de que ya tengas más experiencia en esto. En caso contrario, debes ubicarte en `~/.config/` y ejecutar en tu terminal los siguientes comandos:
+Puedes instalar esta configuración de la manera que te parezca más cómoda, en el caso de que ya tengas más experiencia en esto. En caso contrario, ejecuta este comando en tu terminal:
 
 ```git
-# 1.
-git clone https://github.com/mariomttz/neovim-configuration
-
-# 2.
-mv neovim-configuration nvim
+git clone https://github.com/mariomttz/neovim-configuration ~/.config/nvim
 ```
 
 **Nota:** ya debes contar con Neovim instalado. En el caso de que todavía no cuentes con él, puedes consultar como instalarlo dando clic [aquí](https://github.com/neovim/neovim/wiki/Installing-Neovim).

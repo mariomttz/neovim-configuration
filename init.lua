@@ -15,11 +15,11 @@ Under MIT license.
 Author: Mario Martinez.
 Contact: mariomttz@protonmail.com
 
-Current version: "1.2.2"
-Last update: January 27, 2023.
+Current version: "1.3.1"
+Last update: January 29, 2023.
 
-Version in development: "1.3.0"
-Last update: January 27, 2023.
+Version in development: "1.4.0"
+Last update: January 29, 2023.
 
 --]]
 
