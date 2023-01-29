@@ -27,15 +27,14 @@ g.mapleader = " "               -- The key we use as a general mapleader is the 
 -- B
 -- C
 -- D
--- Dashboard keymaps.
-map("n", "<leader>nf", "<cmd>DashboardNewFile<cr>", {desc = "New file"})                -- New file keymap.
-
 -- E
 -- F
 -- G
 -- General keymaps.
 map("n", "<leader>%", "<cmd>luafile %<cr>", {desc = "File reloaded"})                   -- File reloaded keymap.
 map("n", "<leader>$", "<cmd>source $MYVIMRC", {desc = "Vimrc reloaded"})                -- Vimrc reloaded keymap.
+map("n", "<leader>w", "<cmd>write<cr>", {desc = "Write file"})                          -- Write file keymap.
+map("n", "<leader>q", "<cmd>quit<cr>", {desc = "Exit"})                                 -- Exit keymap.
 
 -- H
 -- I
@@ -44,6 +43,9 @@ map("n", "<leader>$", "<cmd>source $MYVIMRC", {desc = "Vimrc reloaded"})        
 -- L
 -- M
 -- N
+-- Neovim treetoggle
+map("n", "<C-n>", "<cmd>NvimTreeToggle<cr>", {desc = "File browser"})                   -- Open and close de file browser.
+
 -- O
 -- P
 -- Q
