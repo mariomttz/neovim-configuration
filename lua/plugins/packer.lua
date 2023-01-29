@@ -93,7 +93,11 @@ return require('packer').startup(function(use)
         end,
     }
 
-    --
+    -- Treesitter text objects.
+    use "nvim-treesitter/nvim-treesitter-textobjects"
+
+    -- Neovim ts rainbow.
+    use "p00f/nvim-ts-rainbow"
 
     -- Search and Jump.
     use "woosaaahh/sj.nvim"

@@ -41,5 +41,9 @@ require("nvim-treesitter.configs").setup({
     highlight = {                                       -- Syntax highlight configuration.
         enable = true,                                  -- Enable the syntax highlight.
         additional_vim_regex_highlighting = false,      -- Desable the vim regex hihglight.
-    }
+    },
+
+    rainbow = {                                         -- Neovim ts rainbow configuration.
+        enable = true,                                  -- Enable the highlight brackets colors.
+    },
 })
