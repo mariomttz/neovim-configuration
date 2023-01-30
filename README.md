@@ -9,16 +9,13 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 
 | Current version | Release date |
 | :-------------: | :----------: |
-| `1.3.1` | `January 29, 2023` |
+| `1.4.0` | `January 29, 2023` |
 
-- We added plugins that are used by more plugins: ["plenary.nvim"](https://github.com/nvim-lua/plenary.nvim), ["Nvim-web-devicons"](https://github.com/nvim-tree/nvim-web-devicons).
-- Save the status bar, it looks improved with the help of ["lualine.nvim"](https://github.com/nvim-lualine/lualine.nvim).
-- You can now move between buffers, thanks to ["nvim-cokeline"](https://github.com/noib3/nvim-cokeline).
-- With the file explorer ["nvim-tree.lua"](https://github.com/nvim-tree/nvim-tree.lua) it will be much easier to find what you were looking for.
-- We add color to files with ["nvim-treesitter"](https://github.com/nvim-treesitter/nvim-treesitter).
-- Move like a ninja with ["SJ - Search and Jump"](https://github.com/woosaaahh/sj.nvim).
-- Now the dashboard is more beautiful than before.
-- We added some useful keymaps and some color to the brackets.
+- We improved Git in neovim with the plugins ["diffview.nvim"](https://github.com/sindrets/diffview.nvim) and ["gitsigns.nvim"](https://github.com/lewis6991/gitsigns.nvim).
+- You have rest API calls without leaving neovim with the help of ["rest.nvim"](https://github.com/rest-nvim/rest.nvim).
+- Now you can annotate your buffers thanks to ["todo comments"](https://github.com/folke/todo-comments.nvim).
+- Look at the stars in the sky, as we have integrated ["telescope.nvim"](https://github.com/nvim-telescope/telescope.nvim) and some of its most interesting plugins.
+- Commenting code has never been easier thanks to ["comment.nvim"](https://github.com/numToStr/Comment.nvim).
 
 ## 🛠 Installation
 You can install this configuration in the way you find most comfortable, in case you already have more experience in this. Otherwise, run this command in your terminal:
@@ -46,16 +43,13 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 
 | Versión actual | Fecha de publicación |
 | :------------: | :------------------: |
-| `1.3.1` | `29 de Enero del 2023` |
+| `1.4.0` | `29 de Enero del 2023` |
 
-- Agregamos plugins que son usados por más plugins: ["plenary.nvim"](https://github.com/nvim-lua/plenary.nvim), ["Nvim-web-devicons"](https://github.com/nvim-tree/nvim-web-devicons).
-- Ahorra la barra de estatus, tiene un aspecto mejorado con la ayuda de ["lualine.nvim"](https://github.com/nvim-lualine/lualine.nvim).
-- Ya puedes moverte entre buffers, gracias a ["nvim-cokeline"](https://github.com/noib3/nvim-cokeline).
-- Con el explorador de archivos ["nvim-tree.lua"](https://github.com/nvim-tree/nvim-tree.lua) será mucho más fácil encontrar lo que buscabas.
-- Le agregamos color a los archivos con ["nvim-treesitter"](https://github.com/nvim-treesitter/nvim-treesitter).
-- Muévete como un ninja con["SJ - Search and Jump"](https://github.com/woosaaahh/sj.nvim).
-- Ahora el dashboard es más bonito que antes.
-- Añadimos algunos keymaps útiles y algo de color a los brackets.
+- Mejoramos Git en neovim con los plugins ["diffview.nvim"](https://github.com/sindrets/diffview.nvim) y ["gitsigns.nvim"](https://github.com/lewis6991/gitsigns.nvim).
+- Has llamadas rest API sin salir de neovim con ayuda de ["rest.nvim"](https://github.com/rest-nvim/rest.nvim).
+- Ahora puedes hacer anotaciones en tus buffers gracias a ["todo comments"](https://github.com/folke/todo-comments.nvim).
+- Mira las estrellas en el cielo, ya que hemos integrado ["telescope.nvim"](https://github.com/nvim-telescope/telescope.nvim) y algunos de sus complementos más interesantes.
+- Comentar código nunca había sido tan fácil y todo gracias a ["comment.nvim"](https://github.com/numToStr/Comment.nvim).
 
 ## 🛠 Instalación
 Puedes instalar esta configuración de la manera que te parezca más cómoda, en el caso de que ya tengas más experiencia en esto. En caso contrario, ejecuta este comando en tu terminal:
