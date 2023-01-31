@@ -102,6 +102,27 @@ return require('packer').startup(function(use)
     -- Search and Jump.
     use "woosaaahh/sj.nvim"
 
+    -- Diffview.
+    use {"sindrets/diffview.nvim",
+        requires = "nvim-lua/plenary.nvim"
+    }
+    
+    -- Gitsigns.
+    use "lewis6991/gitsigns.nvim"
+
+    -- Rest nvim.
+    use {"rest-nvim/rest.nvim",
+        requires = { "nvim-lua/plenary.nvim" }
+    }
+
+    -- Comment.
+    use "numToStr/Comment.nvim"
+
+    -- Toggleterm.
+    use {"akinsho/toggleterm.nvim",
+        tag = '*'
+    }
+
     --
 
     -- Automatically set up your configuration after cloning packer.nvim
