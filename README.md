@@ -9,11 +9,11 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 
 | Current version | Release date |
 | :-------------: | :----------: |
-| `1.4.0` | `January 29, 2023` |
+| `1.4.0` | `January 30, 2023` |
 
 - We improved Git in neovim with the plugins ["diffview.nvim"](https://github.com/sindrets/diffview.nvim) and ["gitsigns.nvim"](https://github.com/lewis6991/gitsigns.nvim).
 - You have rest API calls without leaving neovim with the help of ["rest.nvim"](https://github.com/rest-nvim/rest.nvim).
-- Now you can annotate your buffers thanks to ["todo comments"](https://github.com/folke/todo-comments.nvim).
+- Use your terminal from neovim with ["toggleterm.nvim"](https://github.com/akinsho/toggleterm.nvim).
 - Look at the stars in the sky, as we have integrated ["telescope.nvim"](https://github.com/nvim-telescope/telescope.nvim) and some of its most interesting plugins.
 - Commenting code has never been easier thanks to ["comment.nvim"](https://github.com/numToStr/Comment.nvim).
 
@@ -43,11 +43,11 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 
 | Versión actual | Fecha de publicación |
 | :------------: | :------------------: |
-| `1.4.0` | `29 de Enero del 2023` |
+| `1.4.0` | `30 de Enero del 2023` |
 
 - Mejoramos Git en neovim con los plugins ["diffview.nvim"](https://github.com/sindrets/diffview.nvim) y ["gitsigns.nvim"](https://github.com/lewis6991/gitsigns.nvim).
 - Has llamadas rest API sin salir de neovim con ayuda de ["rest.nvim"](https://github.com/rest-nvim/rest.nvim).
-- Ahora puedes hacer anotaciones en tus buffers gracias a ["todo comments"](https://github.com/folke/todo-comments.nvim).
+- Usa tu terminal desde neovim con ["toggleterm.nvim"](https://github.com/akinsho/toggleterm.nvim).
 - Mira las estrellas en el cielo, ya que hemos integrado ["telescope.nvim"](https://github.com/nvim-telescope/telescope.nvim) y algunos de sus complementos más interesantes.
 - Comentar código nunca había sido tan fácil y todo gracias a ["comment.nvim"](https://github.com/numToStr/Comment.nvim).
 

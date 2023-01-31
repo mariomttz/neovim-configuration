@@ -19,7 +19,7 @@ Current version: "1.3.1"
 Last update: January 29, 2023.
 
 Version in development: "1.4.0"
-Last update: January 29, 2023.
+Last update: January 30, 2023.
 
 --]]
 
@@ -40,3 +40,8 @@ require("plugins/lualine")           -- Statusline configuration file.
 require("plugins/cokeline")          -- Bufferline configuration file.
 require("plugins/treesitter")        -- Syntax highlighting configuration file.
 require("plugins/sj")                -- Buffer navigator configuration file.
+require("plugins/diffview")          -- View changes configuration file.
+require("plugins/gitsigns")          -- Signs of git configuration file.
+require("plugins/rest-nvim")         -- Rest API calls configuration file.
+require("plugins/comment")           -- Comment code configuration file.
+require("plugins/toggleterm")        -- Neovim term configuration file.
