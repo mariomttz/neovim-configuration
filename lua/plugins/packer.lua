@@ -40,8 +40,11 @@ return require('packer').startup(function(use)
     -- Plenary.
     use "nvim-lua/plenary.nvim"
 
-    -- Nvim-web-devicons.
+    -- Nvim web devicons.
     use "nvim-tree/nvim-web-devicons"
+
+    -- Neovim popup.
+    use "nvim-lua/popup.nvim"
 
     -- Specific plugins.
     -- Autosave.
@@ -123,8 +126,37 @@ return require('packer').startup(function(use)
         tag = '*'
     }
 
+    -- Telescope.
+    use {"nvim-telescope/telescope.nvim",
+        tag = "0.1.1",
+        requires = { {"nvim-lua/plenary.nvim"} }
+    }
+
+    -- Telescope fzf native.
+    use {"nvim-telescope/telescope-fzf-native.nvim",
+        run = "make"
+    }
+
+    -- Telescope media files.
+    use "nvim-telescope/telescope-media-files.nvim"
+
     --
 
+    -- Telescope heading.
+    use "crispgm/telescope-heading.nvim"
+
+    -- Telescope emoji finder.
+    use "xiyaowong/telescope-emoji.nvim"
+
+    -- Neoclip.
+    use {"AckslD/nvim-neoclip.lua",
+        requires = {{"kkharji/sqlite.lua",
+        module = "sqlite"}}
+    }
+
+    -- 
+
+    -- 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then
