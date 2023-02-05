@@ -154,9 +154,47 @@ return require('packer').startup(function(use)
         module = "sqlite"}}
     }
 
-    -- 
+    -- LSP zero.
+    use {"VonHeikemen/lsp-zero.nvim",
+        branch = "v1.x",
+        requires = {
+            -- LSP suport.
+            {"neovim/nvim-lspconfig"},             -- Required plugin.
+            {"williamboman/mason.nvim"},           -- Optional plugin.
+            {"williamboman/mason-lspconfig.nvim"}, -- Optional plugin.
+            
+            -- Autocompletion
+            {"hrsh7th/nvim-cmp"},                  -- Required plugin.
+            {"hrsh7th/cmp-nvim-lsp"},              -- Required plugin.
+            {"hrsh7th/cmp-buffer"},                -- Optional plugin.
+            {"hrsh7th/cmp-path"},                  -- Optional plugin.
+            {"saadparwaiz1/cmp_luasnip"},          -- Optional plugin.
+            {"hrsh7th/cmp-nvim-lua"},              -- Optional plugin.
+            
+            -- Snippets
+            {"L3MON4D3/LuaSnip"},                  -- Required plugin.
+            {"rafamadriz/friendly-snippets"}       -- Optional plugin.
+        }
+    }
+
+    -- LSP colors.
+    use "folke/lsp-colors.nvim"
+
+    -- Sidebar.
+    use "sidebar-nvim/sidebar.nvim"
+
+    -- Trouble.
+    use {"folke/trouble.nvim",
+        requires = "nvim-tree/nvim-web-devicons"
+    }
+
+    -- Todo comments.
+    use {"folke/todo-comments.nvim",
+        requires = "nvim-lua/plenary.nvim"
+    }
 
     -- 
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then

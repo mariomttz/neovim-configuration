@@ -54,6 +54,7 @@ opt.relativenumber = true           -- Show relative line number in front of eac
 opt.smartcase      = true           -- No ignore case when pattern has uppercase.
 opt.shiftwidth     = 4              -- Number of spaces to use for (auto)indent step.
 opt.softtabstop    = 4              -- Number of spaces that <Tab> uses while editing.
+opt.signcolumn     = "yes"          -- Creates a space in the buffer GUI to better place the signs.
 
 -- T
 opt.tabstop        = 4              -- Number of spaces that <Tab> in file uses.
