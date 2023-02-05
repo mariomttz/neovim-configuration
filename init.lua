@@ -51,3 +51,4 @@ require("plugins/lsp-colors")        -- Colors for the LSP configuration file.
 require("plugins/sidebar-nvim")      -- To-do sidebar configuration file.
 require("plugins/trouble")           -- Buffer diagnostics configuration file.
 require("plugins/todo-comments")     -- Code comments configuration file.
+require("plugins/which-key")         -- Cheatsheet for keymaps configuration file.

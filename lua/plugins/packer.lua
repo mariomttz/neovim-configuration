@@ -140,8 +140,6 @@ return require('packer').startup(function(use)
     -- Telescope media files.
     use "nvim-telescope/telescope-media-files.nvim"
 
-    --
-
     -- Telescope heading.
     use "crispgm/telescope-heading.nvim"
 
@@ -193,7 +191,8 @@ return require('packer').startup(function(use)
         requires = "nvim-lua/plenary.nvim"
     }
 
-    -- 
+    -- Which key.
+    use "folke/which-key.nvim"
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
