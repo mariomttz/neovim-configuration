@@ -23,7 +23,7 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 Packages that are necessary to have installed in your operating system for the correct functioning of the plugins. These packages can be installed in any way you like, I will be using `pacman` as package installer in `Arch Linux`.
 
 ```git
-pacman -S ripgrep, fd, make, gcc, clang
+pacman -S ripgrep fd make gcc clang
 ```
 
 You can install this configuration in the way you find most comfortable, in case you already have more experience in this. Otherwise, run this command in your terminal:
@@ -72,7 +72,7 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 Paquetes que son necesarios tener instalados en tu sistema operativo para el correcto funcionamiento de los plugins. Estos paquetes pueden ser instalados de la manera que más les guste, yo estaré usando `pacman` como instalador de paquetes en `Arch Linux`.
 
 ```git
-pacman -S ripgrep, fd, make, gcc, clang
+pacman -S ripgrep fd make gcc clang
 ```
 
 Puedes instalar esta configuración de la manera que te parezca más cómoda, en el caso de que ya tengas más experiencia en esto. En caso contrario, ejecuta este comando en tu terminal:
