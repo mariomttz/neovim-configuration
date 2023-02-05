@@ -9,13 +9,15 @@ This is my own [Neovim](https://neovim.io/) configuration that I use for various
 
 | Current version | Release date |
 | :-------------: | :----------: |
-| `1.4.0` | `January 31, 2023` |
+| `1.5.0` | `February 04, 2023` |
 
-- We improved Git in neovim with the plugins ["diffview.nvim"](https://github.com/sindrets/diffview.nvim) and ["gitsigns.nvim"](https://github.com/lewis6991/gitsigns.nvim).
-- You have rest API calls without leaving neovim with the help of ["rest.nvim"](https://github.com/rest-nvim/rest.nvim).
-- Use your terminal from neovim with ["toggleterm.nvim"](https://github.com/akinsho/toggleterm.nvim).
-- Look at the stars in the sky, as we have integrated ["telescope.nvim"](https://github.com/nvim-telescope/telescope.nvim) and some of its most interesting plugins: ["telescope-fzf-native.nvim"](https://github.com/nvim-telescope/telescope-fzf-native.nvim), ["telescope-media-files.nvim"](https://github.com/nvim-telescope/telescope-media-files.nvim), ["telescope-heading.nvim"](https://github.com/crispgm/telescope-heading.nvim), ["telescope-emoji.nvim"](https://github.com/xiyaowong/telescope-emoji.nvim), ["nvim-neoclip.lua"](https://github.com/AckslD/nvim-neoclip.lua).
-- Commenting code has never been easier thanks to ["comment.nvim"](https://github.com/numToStr/Comment.nvim).
+- We made small modifications in some configuration files.
+- The long awaited neovim lsp and neovim cmp came to this configuration with the help of the plugin ["LSP Zero"](https://github.com/VonHeikemen/lsp-zero.nvim).
+- A more colorful LSP thanks to ["LSP colors"](https://github.com/folke/lsp-colors.nvim).
+- Identify errors, your buffer much faster with ["trouble"](https://github.com/folke/trouble.nvim).
+- Make annotations in your code thanks to ["todo comments"](https://github.com/folke/todo-comments.nvim).
+- A task sidebar is very useful, that's why we integrated ["sidebar.nvim"](https://github.com/sidebar-nvim/sidebar.nvim).
+- Find the shortcut you are looking for with ["which key"](https://github.com/folke/which-key.nvim).
 
 ## 🛠 Installation
 Packages that are necessary to have installed in your operating system for the correct functioning of the plugins. These packages can be installed in any way you like, I will be using `pacman` as package installer in `Arch Linux`.
@@ -56,13 +58,15 @@ Esta es mi propia configuración de [Neovim](https://neovim.io/) que yo uso para
 
 | Versión actual | Fecha de publicación |
 | :------------: | :------------------: |
-| `1.4.0` | `31 de Enero del 2023` |
+| `1.5.0` | `04 de Febrero del 2023` |
 
-- Mejoramos Git en neovim con los plugins ["diffview.nvim"](https://github.com/sindrets/diffview.nvim) y ["gitsigns.nvim"](https://github.com/lewis6991/gitsigns.nvim).
-- Has llamadas rest API sin salir de neovim con ayuda de ["rest.nvim"](https://github.com/rest-nvim/rest.nvim).
-- Usa tu terminal desde neovim con ["toggleterm.nvim"](https://github.com/akinsho/toggleterm.nvim).
-- Mira las estrellas en el cielo, ya que hemos integrado ["telescope.nvim"](https://github.com/nvim-telescope/telescope.nvim) y algunos de sus complementos más interesantes: ["telescope-fzf-native.nvim"](https://github.com/nvim-telescope/telescope-fzf-native.nvim), ["telescope-media-files.nvim"](https://github.com/nvim-telescope/telescope-media-files.nvim), ["telescope-heading.nvim"](https://github.com/crispgm/telescope-heading.nvim), ["telescope-emoji.nvim"](https://github.com/xiyaowong/telescope-emoji.nvim), ["nvim-neoclip.lua"](https://github.com/AckslD/nvim-neoclip.lua).
-- Comentar código nunca había sido tan fácil y todo gracias a ["comment.nvim"](https://github.com/numToStr/Comment.nvim).
+- Hicimos pequeñas modificaciones es algunos archivos de configuración.
+- Llego el tan ansiado neovim lsp y neovim cmp a esta configuración con ayuda del plugin ["LSP Zero"](https://github.com/VonHeikemen/lsp-zero.nvim).
+- Un LSP más colorido gracias a ["LSP colors"](https://github.com/folke/lsp-colors.nvim).
+- Identifica errores, el tu buffer mucho más rápido con ["trouble"](https://github.com/folke/trouble.nvim).
+- Realiza anotaciones en tu código a gracias a ["todo comments"](https://github.com/folke/todo-comments.nvim).
+- Una barra lateral de tareas es de mucha utilidad, por eso integramos ["sidebar.nvim"](https://github.com/sidebar-nvim/sidebar.nvim).
+- Encuentra el shortcut que buscas con ["which key"](https://github.com/folke/which-key.nvim).
 
 ## 🛠 Instalación
 Paquetes que son necesarios tener instalados en tu sistema operativo para el correcto funcionamiento de los plugins. Estos paquetes pueden ser instalados de la manera que más les guste, yo estaré usando `pacman` como instalador de paquetes en `Arch Linux`.

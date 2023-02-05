@@ -15,11 +15,11 @@ Under MIT license.
 Author: Mario Martinez.
 Contact: mariomttz@protonmail.com
 
-Current version: "1.3.1"
-Last update: January 29, 2023.
-
-Version in development: "1.4.0"
+Current version: "1.4.0 "
 Last update: January 31, 2023.
+
+Version in development: "1.5.0"
+Last update: February 04, 2023.
 
 --]]
 
@@ -46,3 +46,8 @@ require("plugins/rest-nvim")         -- Rest API calls configuration file.
 require("plugins/comment")           -- Comment code configuration file.
 require("plugins/toggleterm")        -- Neovim term configuration file.
 require("plugins/telescope")         -- Fuzzy finder configuration file.
+require("plugins/lsp-zero")          -- LSP, autocompletion and snippets configuration file.
+require("plugins/lsp-colors")        -- Colors for the LSP configuration file.
+require("plugins/sidebar-nvim")      -- To-do sidebar configuration file.
+require("plugins/trouble")           -- Buffer diagnostics configuration file.
+require("plugins/todo-comments")     -- Code comments configuration file.
